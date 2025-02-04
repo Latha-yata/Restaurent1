@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup page</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-image: url(../food.avif);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .signup .sign-up {
+            width: 500px;
+            height: 400px;
+            position: relative;
+            top: 100px;
+            left: 350px;
+            padding: 30px;
+            background: url(../food.avif);
+        }
+        form{
+            height: 300px;
+            width: 400px;
+            background-color: black;
+            margin: 50px;
+        }
+        form:hover{
+            box-shadow: 0px 0px 10px orange;
+        }
+        .sign-up input{
+            margin: 5px;
+            height: 40px;
+            position: relative;
+            top: 30px;
+            left: 10px;
+        }
+        .sign-up input:hover{
+            background-color: whitesmoke;
+            border-style: none;
+        }
+        .sign-up button{
+            padding: 10px 162px;
+            margin-top: 50px;
+            margin-left: 15px;
+        }
+        .sign-up .email{
+            width: 355px;
+        }
+        .sign-up button:hover{
+            background-color: blue;
+            border-style: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- ====== SIGN UP BUTTON LINK ========= -->
+ <section class="signup">
+    <div class="sign-up">
+        <form action="">
+            
+        <input type="text" placeholder="Your First Name">
+        <input type="text" placeholder="Your Last Name"> <br>
+
+        <input type="email" placeholder="example.example" class="email"> <br>
+        <input type="password" placeholder="Password" required>
+        <input type="password" placeholder="Confirm" required> <br>
+        <button>Login</button>
+
+    </form>
+    </div>
+ </section>
+
+</body>
+</html>
